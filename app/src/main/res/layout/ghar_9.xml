@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:text="अपाङ्गता परिचयपत्र लिएका बालबालिकाको विवरण"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+            <TableLayout
+                android:layout_margin="5dp"
+                android:background="@drawable/title_bck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TableRow
+                    android:layout_height="150dp"
+                    android:background="@drawable/border"
+                    android:layout_width="match_parent">
+
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="भिन्न क्षमताको विवरण"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TableLayout
+                        android:layout_weight="1"
+                        android:layout_height="120dp"
+                        android:layout_width="200dp"
+                        android:background="@drawable/border" >
+
+
+                        <TextView
+                            android:background="@drawable/border"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="परिचयपत्र लिएका बालबालिकाको संख्या" />
+
+                        <TableRow
+
+                            android:background="@drawable/border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:background="@drawable/border"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="बालिका" />
+
+                            <TextView
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:background="@drawable/border"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="बालक" />
+
+                            <TextView
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:background="@drawable/border"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="जम्मा" />
+
+                        </TableRow>
+
+
+                    </TableLayout>
+
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="45dp"
+                    android:background="@drawable/border"
+                    android:layout_width="match_parent">
+
+                    <TextView
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="पूर्ण अशक्त अपाङ्गता (रातो रंगको)" />
+
+                    <TableLayout
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:layout_height="wrap_content">
+
+                        <TableRow
+                            android:layout_height="45dp"
+                            android:layout_width="match_parent">
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <TextView
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+                        </TableRow>
+
+
+                    </TableLayout>
+
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="45dp"
+                    android:background="@drawable/border"
+                    android:layout_width="match_parent">
+
+                    <TextView
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="अति अशक्त अपाङ्गता (नीलो रंगको)" />
+
+                    <TableLayout
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:layout_height="wrap_content">
+
+                        <TableRow
+                            android:layout_height="45dp"
+                            android:layout_width="match_parent">
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <TextView
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+                        </TableRow>
+
+
+                    </TableLayout>
+
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="45dp"
+                    android:background="@drawable/border"
+                    android:layout_width="match_parent">
+
+                    <TextView
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="मध्यम अपाङ्गता (पहेलो रंगको)" />
+
+                    <TableLayout
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:layout_height="wrap_content">
+
+                        <TableRow
+                            android:layout_height="45dp"
+                            android:layout_width="match_parent">
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <TextView
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+                        </TableRow>
+
+
+                    </TableLayout>
+
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="45dp"
+                    android:background="@drawable/border"
+                    android:layout_width="match_parent">
+
+                    <TextView
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="सामान्य अपाङ्गता (सेतो रंगको)" />
+
+                    <TableLayout
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:layout_height="wrap_content">
+
+                        <TableRow
+                            android:layout_height="45dp"
+                            android:layout_width="match_parent">
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <TextView
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+                        </TableRow>
+
+
+                    </TableLayout>
+
+
+
+                </TableRow>
+
+            </TableLayout>
+
+
+</LinearLayout>
