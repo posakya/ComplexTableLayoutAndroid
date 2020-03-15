@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:text="विषयगत शिक्षक संख्या"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TableLayout
+        android:layout_margin="5dp"
+        android:background="@drawable/title_bck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+
+            android:background="@drawable/border" >
+            <TextView
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:padding="5dp"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="विषय" />
+
+            <TextView
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="संख्या" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border">
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingEnd="5dp"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="गणित" />
+
+            <FrameLayout
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="28dp">
+
+                <Spinner
+                    android:layout_gravity="center"
+                    android:entries="@array/types"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="28dp" />
+
+            </FrameLayout>
+
+
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border">
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingEnd="5dp"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="विज्ञान" />
+
+            <FrameLayout
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="28dp">
+
+                <Spinner
+                    android:layout_gravity="center"
+                    android:entries="@array/types"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="28dp" />
+
+            </FrameLayout>
+
+
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border">
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingEnd="5dp"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="अङ्रेजी" />
+
+
+            <FrameLayout
+
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp">
+
+                <Spinner
+                    android:layout_gravity="center"
+                    android:entries="@array/types"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="28dp" />
+
+            </FrameLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border">
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingEnd="5dp"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="सामाजिक शिक्षा" />
+
+            <FrameLayout
+
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp">
+
+                <Spinner
+                    android:layout_gravity="center"
+                    android:entries="@array/types"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="28dp" />
+
+            </FrameLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border">
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingEnd="5dp"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="स्वास्थ्य" />
+
+
+
+            <FrameLayout
+
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp">
+
+                <Spinner
+                    android:layout_gravity="center"
+                    android:entries="@array/types"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="28dp" />
+
+            </FrameLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border">
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingEnd="5dp"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="वबातावरण" />
+
+            <FrameLayout
+
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp">
+
+                <Spinner
+                    android:layout_gravity="center"
+                    android:entries="@array/types"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="28dp" />
+
+            </FrameLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border">
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingEnd="5dp"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="नेपाली" />
+
+
+
+            <FrameLayout
+
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp">
+
+                <Spinner
+                    android:layout_gravity="center"
+                    android:entries="@array/types"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="28dp" />
+
+            </FrameLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border">
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingEnd="5dp"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="नैतीक शिक्षा" />
+
+
+            <FrameLayout
+
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp">
+
+                <Spinner
+                    android:layout_gravity="center"
+                    android:entries="@array/types"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="28dp" />
+
+            </FrameLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border">
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingEnd="5dp"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="जन्सन्ख्या" />
+
+
+            <FrameLayout
+
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp">
+
+                <Spinner
+                    android:layout_gravity="center"
+                    android:entries="@array/types"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="28dp" />
+
+            </FrameLayout>
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

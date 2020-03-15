@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:text="विद्यालय शैक्षिक बातावरण सम्ब्न्धी"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TableLayout
+        android:layout_margin="5dp"
+        android:background="@drawable/title_bck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+
+            android:background="@drawable/border" >
+            <TextView
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:padding="5dp"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="शैक्षिक बातावरण" />
+
+            <TextView
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="अवस्था" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border">
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingEnd="5dp"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="विद्यालयमा पुस्तकालय छ" />
+
+            <FrameLayout
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="28dp">
+
+                <Spinner
+                    android:layout_gravity="center"
+                    android:entries="@array/chha"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="28dp" />
+
+            </FrameLayout>
+
+            
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border">
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingEnd="5dp"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="विज्ञान प्रयोगशाला छ" />
+
+            <FrameLayout
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="28dp">
+
+                <Spinner
+                    android:layout_gravity="center"
+                    android:entries="@array/chha"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="28dp" />
+
+            </FrameLayout>
+
+            
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border">
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingEnd="5dp"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="CBEGRA कार्यन्वयन भएको छ" />
+
+           
+            <FrameLayout
+
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp">
+
+                <Spinner
+                    android:layout_gravity="center"
+                    android:entries="@array/bhayeko"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="28dp" />
+
+            </FrameLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border">
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingEnd="5dp"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="एकीकृत पाठ्यक्रम संञ्चालन भएको छ" />
+
+            <FrameLayout
+
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp">
+
+                <Spinner
+                    android:layout_gravity="center"
+                    android:entries="@array/bhayeko"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="28dp" />
+
+            </FrameLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border">
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingEnd="5dp"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="इन्टरनेटको सुविधा छ ?" />
+
+          
+
+            <FrameLayout
+
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp">
+
+                <Spinner
+                    android:layout_gravity="center"
+                    android:entries="@array/bhayeko"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="28dp" />
+
+            </FrameLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border">
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingEnd="5dp"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="विद्यालयमा शान्ति क्षेत्र कार्यन्वयन भएको छ" />
+
+            <FrameLayout
+
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp">
+
+                <Spinner
+                    android:layout_gravity="center"
+                    android:entries="@array/bhayeko"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="28dp" />
+
+            </FrameLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border">
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingEnd="5dp"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="विद्यालयले विद्यालय सुधार योजनाको अध्यावधिक अवस्था" />
+
+         
+
+            <FrameLayout
+
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp">
+
+                <Spinner
+                    android:layout_gravity="center"
+                    android:entries="@array/bhayeko"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="28dp" />
+
+            </FrameLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border">
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingEnd="5dp"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="यस विद्यालयमा बालक्लव गठनको अवस्था" />
+
+
+            <FrameLayout
+
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp">
+
+                <Spinner
+                    android:layout_gravity="center"
+                    android:entries="@array/bhayeko"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="28dp" />
+
+            </FrameLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border">
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingEnd="5dp"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="यस विद्यालयमा बालमैत्री शिक्षण विधि प्रयोगको अवस्था" />
+
+
+            <FrameLayout
+
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp">
+
+                <Spinner
+                    android:layout_gravity="center"
+                    android:entries="@array/bhayeko"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="28dp" />
+
+            </FrameLayout>
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

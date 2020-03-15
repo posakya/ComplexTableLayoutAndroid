@@ -1,0 +1,1345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:text="1st question first part"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TableLayout
+            android:layout_margin="5dp"
+            android:background="@drawable/title_bck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TableRow
+
+                android:background="@drawable/border" >
+                <TextView
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="उमेर समूह" />
+
+                <TextView
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="महिला" />
+                <TextView
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:text="पुरुष" />
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/border">
+                <TextView
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingEnd="5dp"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="  ५ वर्ष वा सोभन्दा मुनी" />
+
+                <FrameLayout
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:layout_weight="0.4"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/border">
+                <TextView
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingEnd="5dp"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="  ६ – १० वर्षसम्म" />
+
+                <FrameLayout
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:layout_weight="0.4"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/border">
+                <TextView
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingEnd="5dp"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="  ११ – १५ वर्षसम्म" />
+
+                <FrameLayout
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:layout_weight="0.4"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/border">
+                <TextView
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingEnd="5dp"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="  १६ – २४ वर्षसम्म" />
+
+                <FrameLayout
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:layout_weight="0.4"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/border">
+                <TextView
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingEnd="5dp"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="  २५ – ४५ वर्षसम्म" />
+
+                <FrameLayout
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:layout_weight="0.4"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/border">
+                <TextView
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingEnd="5dp"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="  ४५ – ६० वर्षसम्म" />
+
+                <FrameLayout
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:layout_weight="0.4"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/border">
+                <TextView
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingEnd="5dp"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="  ६० – ७५ वर्षसम्म" />
+
+                <FrameLayout
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:layout_weight="0.4"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/border">
+                <TextView
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingEnd="5dp"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="  ७५ वर्षसम्म भन्दा माथि" />
+
+                <FrameLayout
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:layout_weight="0.4"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+            </TableRow>
+
+
+        </TableLayout>
+
+        <TextView
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:text="1st question second part"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TableLayout
+            android:layout_margin="5dp"
+            android:background="@drawable/title_bck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TableRow
+
+                android:background="@drawable/border" >
+                <TextView
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="उमेर समूह" />
+
+                <TextView
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="महिला" />
+                <TextView
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:text="पुरुष" />
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/border">
+                <TextView
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingEnd="5dp"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="  ५ वर्ष वा सोभन्दा मुनी" />
+
+                <FrameLayout
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:layout_weight="0.4"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/border">
+                <TextView
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingEnd="5dp"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="  ६ – १० वर्षसम्म" />
+
+                <FrameLayout
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:layout_weight="0.4"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/border">
+                <TextView
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingEnd="5dp"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="  ११ – १५ वर्षसम्म" />
+
+                <FrameLayout
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:layout_weight="0.4"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/border">
+                <TextView
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingEnd="5dp"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="  १६ – २४ वर्षसम्म" />
+
+                <FrameLayout
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:layout_weight="0.4"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/border">
+                <TextView
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingEnd="5dp"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="  २५ – ४५ वर्षसम्म" />
+
+                <FrameLayout
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:layout_weight="0.4"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/border">
+                <TextView
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingEnd="5dp"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="  ४५ – ६० वर्षसम्म" />
+
+                <FrameLayout
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:layout_weight="0.4"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/border">
+                <TextView
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingEnd="5dp"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="  ६० – ७५ वर्षसम्म" />
+
+                <FrameLayout
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:layout_weight="0.4"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/border">
+                <TextView
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingEnd="5dp"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="  ७५ वर्षसम्म भन्दा माथि" />
+
+                <FrameLayout
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:layout_weight="0.4"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+            </TableRow>
+
+
+        </TableLayout>
+
+        <TextView
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:text="1st question third part"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TableLayout
+            android:layout_margin="5dp"
+            android:background="@drawable/title_bck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TableRow
+
+                android:background="@drawable/border" >
+                <TextView
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="उमेर समूह" />
+
+                <TextView
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="महिला" />
+                <TextView
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:text="पुरुष" />
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/border">
+                <TextView
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingEnd="5dp"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="  ५ वर्ष वा सोभन्दा मुनी" />
+
+                <FrameLayout
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:layout_weight="0.4"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/border">
+                <TextView
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingEnd="5dp"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="  ६ – १० वर्षसम्म" />
+
+                <FrameLayout
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:layout_weight="0.4"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/border">
+                <TextView
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingEnd="5dp"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="  ११ – १५ वर्षसम्म" />
+
+                <FrameLayout
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:layout_weight="0.4"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/border">
+                <TextView
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingEnd="5dp"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="  १६ – २४ वर्षसम्म" />
+
+                <FrameLayout
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:layout_weight="0.4"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/border">
+                <TextView
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingEnd="5dp"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="  २५ – ४५ वर्षसम्म" />
+
+                <FrameLayout
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:layout_weight="0.4"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/border">
+                <TextView
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingEnd="5dp"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="  ४५ – ६० वर्षसम्म" />
+
+                <FrameLayout
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:layout_weight="0.4"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/border">
+                <TextView
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingEnd="5dp"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="  ६० – ७५ वर्षसम्म" />
+
+                <FrameLayout
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:layout_weight="0.4"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/border">
+                <TextView
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingEnd="5dp"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="  ७५ वर्षसम्म भन्दा माथि" />
+
+                <FrameLayout
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:layout_weight="0.4"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="75dp"
+                        android:layout_height="28dp" />
+
+                </FrameLayout>
+
+            </TableRow>
+
+
+        </TableLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>

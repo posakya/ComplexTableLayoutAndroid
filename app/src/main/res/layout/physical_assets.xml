@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:text="विद्यालयमा उपलब्ध भौतिक सुविधा सम्बन्धी विवरण"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TableLayout
+        android:layout_margin="5dp"
+        android:background="@drawable/title_bck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+
+            android:background="@drawable/border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:padding="5dp"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="भौतिक सुविधा" />
+
+            <TextView
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="विवरण" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingEnd="5dp"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="विज्ञान प्रयोगशाला" />
+
+            <FrameLayout
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="28dp">
+
+                <Spinner
+                    android:layout_gravity="center"
+                    android:entries="@array/chha"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="28dp" />
+
+            </FrameLayout>
+
+
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingEnd="5dp"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="स्वच्छ खानेपानी" />
+
+            <FrameLayout
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="28dp">
+
+                <Spinner
+                    android:layout_gravity="center"
+                    android:entries="@array/chha"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="28dp" />
+
+            </FrameLayout>
+
+
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingEnd="5dp"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="विद्यालयलाई घेरबार गरेको" />
+
+
+            <FrameLayout
+
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp">
+
+                <Spinner
+                    android:layout_gravity="center"
+                    android:entries="@array/chha"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="28dp" />
+
+            </FrameLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingEnd="5dp"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="शौचालय" />
+
+            <FrameLayout
+
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp">
+
+                <Spinner
+                    android:layout_gravity="center"
+                    android:entries="@array/chha"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="28dp" />
+
+            </FrameLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingEnd="5dp"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="अपाङ्ग विद्यार्थि श्रोत कक्षा" />
+
+            <FrameLayout
+
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp">
+
+                <Spinner
+                    android:layout_gravity="center"
+                    android:entries="@array/chha"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="28dp" />
+
+            </FrameLayout>
+
+        </TableRow>
+
+
+    </TableLayout>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:text="भवन"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:text="संख्या"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <FrameLayout
+                    android:background="@drawable/border"
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:text="प्रकार"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <FrameLayout
+                    android:background="@drawable/border"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:inputType="textMultiLine"
+                        app:backgroundTint="@color/transparent"
+                        android:layout_gravity="center"
+                        android:entries="@array/chha"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:text="कोठा संख्या"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:text="संख्या"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <FrameLayout
+                    android:background="@drawable/border"
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:text="प्रकार"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <FrameLayout
+                    android:background="@drawable/border"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:inputType="textMultiLine"
+                        app:backgroundTint="@color/transparent"
+                        android:layout_gravity="center"
+                        android:entries="@array/chha"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:text="फर्निचर संख्या"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:text="डेस्क वेञ्चको क्षमता (जना)"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <FrameLayout
+                    android:background="@drawable/border"
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:text="कालोपाटी संख्या"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <FrameLayout
+                    android:background="@drawable/border"
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:text="यदि छ भने कस्तो प्रकारको घेरबार छ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <FrameLayout
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/border"
+            android:layout_width="match_parent"
+            android:layout_height="34dp">
+
+            <Spinner
+                android:layout_gravity="center"
+                android:entries="@array/gharbar"
+                android:gravity="center"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:text="शौचालयको किसिम (संख्यामा उल्लेख गर्ने)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:text="सामान्य, सवैले प्रयोग गर्ने किसिमको"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <FrameLayout
+                    android:background="@drawable/border"
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:text="शिक्षक शिक्षिकाका लागि भिन्दाभिन्दै भएका"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <FrameLayout
+                    android:background="@drawable/border"
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp">
+
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:entries="@array/types"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+       <LinearLayout
+           android:orientation="horizontal"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <LinearLayout
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"
+               android:layout_weight="1"
+               android:orientation="vertical"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+
+               <TextView
+                   android:textColor="@color/black"
+                   android:padding="10dp"
+                   android:text="छात्राछात्रका लागि भिन्दाभिन्दै भएको"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"/>
+
+               <FrameLayout
+                   android:background="@drawable/border"
+                   android:layout_width="match_parent"
+                   android:layout_height="34dp">
+
+                   <Spinner
+                       android:layout_gravity="center"
+                       android:entries="@array/types"
+                       android:gravity="center"
+                       android:padding="5dp"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content" />
+
+               </FrameLayout>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_marginBottom="20dp"
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"
+               android:layout_weight="1"
+               android:orientation="vertical"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+
+               <TextView
+                   android:textColor="@color/black"
+                   android:padding="10dp"
+                   android:text="अपांगका लागि भिन्दाभिन्दै भएका"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"/>
+
+               <FrameLayout
+                   android:background="@drawable/border"
+                   android:layout_width="match_parent"
+                   android:layout_height="34dp">
+
+                   <Spinner
+                       android:layout_gravity="center"
+                       android:entries="@array/types"
+                       android:gravity="center"
+                       android:padding="5dp"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content" />
+
+               </FrameLayout>
+
+           </LinearLayout>
+
+       </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:text="खेल मैदान क्षेत्रफल (वर्ग मी.)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <FrameLayout
+                android:background="@drawable/border"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:inputType="textMultiLine"
+                    app:backgroundTint="@color/transparent"
+                    android:layout_gravity="center"
+                    android:entries="@array/chha"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
