@@ -9,17 +9,17 @@
         android:textStyle="bold"
         android:padding="10dp"
         android:textColor="@color/black"
-        android:text="परिवार नियोजनको अवस्था"
+        android:text="७.पोषणको स्थिति (Nutrition)"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <HorizontalScrollView
         android:scrollbarThumbHorizontal="@color/transparent"
-        android:id="@+id/hscrll3"
+        android:id="@+id/hscrll4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <LinearLayout
-            android:id="@+id/LinearLayout3"
+            android:id="@+id/LinearLayout4"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal">
@@ -35,11 +35,510 @@
                     android:background="@drawable/border"
                     android:layout_width="match_parent">
 
+                    <TableLayout
+                        android:layout_gravity="center"
+                        android:layout_height="170dp"
+                        android:layout_width="70dp" >
 
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="तौल लिएको (५ वर्ष मुनीका वालवालिकाको पोषणको स्थिति)" />
+
+
+                    </TableLayout>
 
 
                     <TableLayout
-                        android:layout_height="100dp"
+                        android:layout_height="220dp"
+                        android:layout_width="600dp"
+                        android:background="@drawable/border" >
+
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:background="@drawable/border"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="उमेर समूह अनुसार बच्चाहरुको संख्या" />
+
+                        <TableRow
+                            android:background="@drawable/border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TableLayout
+                                android:layout_width="120dp"
+                                android:background="@drawable/border">
+
+                                <TextView
+                                    android:background="@drawable/border"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/black"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="0dp"
+                                    android:layout_height="84dp"
+                                    android:layout_weight="1.5"
+                                    android:text="०–११ महिना" />
+
+                                <TableRow>
+
+                                    <TextView
+                                        android:background="@drawable/border"
+                                        android:textSize="12sp"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"
+                                        android:gravity="center"
+                                        android:padding="5dp"
+                                        android:layout_width="0dp"
+                                        android:layout_height="84dp"
+                                        android:layout_weight="1.5"
+                                        android:text="क्म" />
+
+                                    <TextView
+                                        android:background="@drawable/border"
+                                        android:textSize="12sp"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"
+                                        android:gravity="center"
+                                        android:padding="5dp"
+                                        android:layout_width="0dp"
+                                        android:layout_height="84dp"
+                                        android:layout_weight="1.5"
+                                        android:text="सामान्य" />
+
+
+
+                                </TableRow>
+
+                            </TableLayout>
+
+                            <TableLayout
+                                android:layout_width="120dp"
+                                android:background="@drawable/border">
+
+                                <TextView
+                                    android:background="@drawable/border"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/black"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="0dp"
+                                    android:layout_height="84dp"
+                                    android:layout_weight="1.5"
+                                    android:text="१२–२३ महिना" />
+
+                                <TableRow>
+
+                                    <TextView
+                                        android:background="@drawable/border"
+                                        android:textSize="12sp"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"
+                                        android:gravity="center"
+                                        android:padding="5dp"
+                                        android:layout_width="0dp"
+                                        android:layout_height="84dp"
+                                        android:layout_weight="1.5"
+                                        android:text="क्म" />
+
+
+
+                                    <TextView
+                                        android:background="@drawable/border"
+                                        android:textSize="12sp"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"
+                                        android:gravity="center"
+                                        android:padding="5dp"
+                                        android:layout_width="0dp"
+                                        android:layout_height="84dp"
+                                        android:layout_weight="1.5"
+                                        android:text="सामान्य" />
+
+                                </TableRow>
+
+                            </TableLayout>
+
+                            <TableLayout
+                                android:layout_width="120dp"
+                                android:background="@drawable/border">
+
+                                <TextView
+                                    android:background="@drawable/border"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/black"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="0dp"
+                                    android:layout_height="84dp"
+                                    android:layout_weight="1.5"
+                                    android:text="२४–३५ महिना" />
+
+                                <TableRow>
+
+
+
+                                    <TextView
+                                        android:background="@drawable/border"
+                                        android:textSize="12sp"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"
+                                        android:gravity="center"
+                                        android:padding="5dp"
+                                        android:layout_width="0dp"
+                                        android:layout_height="84dp"
+                                        android:layout_weight="1.5"
+                                        android:text="क्म" />
+
+                                    <TextView
+                                        android:background="@drawable/border"
+                                        android:textSize="12sp"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"
+                                        android:gravity="center"
+                                        android:padding="5dp"
+                                        android:layout_width="0dp"
+                                        android:layout_height="84dp"
+                                        android:layout_weight="1.5"
+                                        android:text="सामान्य" />
+
+                                </TableRow>
+
+                            </TableLayout>
+
+                            <TableLayout
+                                android:layout_width="120dp"
+                                android:background="@drawable/border">
+
+                                <TextView
+                                    android:background="@drawable/border"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/black"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="0dp"
+                                    android:layout_height="84dp"
+                                    android:layout_weight="1.5"
+                                    android:text="३६–५९ महिना" />
+
+                                <TableRow>
+
+
+                                    <TextView
+                                        android:background="@drawable/border"
+                                        android:textSize="12sp"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"
+                                        android:gravity="center"
+                                        android:padding="5dp"
+                                        android:layout_width="0dp"
+                                        android:layout_height="84dp"
+                                        android:layout_weight="1.5"
+                                        android:text="क्म" />
+
+                                    <TextView
+                                        android:background="@drawable/border"
+                                        android:textSize="12sp"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"
+                                        android:gravity="center"
+                                        android:padding="5dp"
+                                        android:layout_width="0dp"
+                                        android:layout_height="84dp"
+                                        android:layout_weight="1.5"
+                                        android:text="सामान्य" />
+
+                                </TableRow>
+
+                            </TableLayout>
+
+                            <TableLayout
+                                android:layout_width="120dp"
+                                android:background="@drawable/border">
+
+                                <TextView
+                                    android:background="@drawable/border"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/black"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="0dp"
+                                    android:layout_height="84dp"
+                                    android:layout_weight="1.5"
+                                    android:text="जम्मा" />
+
+                                <TableRow
+                                    android:background="@drawable/border">
+
+
+                                    <TextView
+                                        android:background="@drawable/border"
+                                        android:textSize="12sp"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"
+                                        android:gravity="center"
+                                        android:padding="5dp"
+                                        android:layout_width="0dp"
+                                        android:layout_height="84dp"
+                                        android:layout_weight="1.5"
+                                        android:text="क्म" />
+
+                                    <TextView
+                                        android:background="@drawable/border"
+                                        android:textSize="12sp"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"
+                                        android:gravity="center"
+                                        android:padding="5dp"
+                                        android:layout_width="0dp"
+                                        android:layout_height="84dp"
+                                        android:layout_weight="1.5"
+                                        android:text="सामान्य" />
+
+                                </TableRow>
+
+                            </TableLayout>
+
+
+
+
+                            <!--                                <TextView-->
+                            <!--                                    android:textSize="12sp"-->
+                            <!--                                    android:textStyle="bold"-->
+                            <!--                                    android:textColor="@color/black"-->
+                            <!--                                    android:gravity="center"-->
+                            <!--                                    android:padding="5dp"-->
+                            <!--                                    android:background="@drawable/border"-->
+                            <!--                                    android:layout_width="0dp"-->
+                            <!--                                    android:layout_height="84dp"-->
+                            <!--                                    android:layout_weight="1.5"-->
+                            <!--                                    android:text="१२–२३ महिना" />-->
+
+                            <!--                                <TextView-->
+                            <!--                                    android:textSize="12sp"-->
+                            <!--                                    android:textStyle="bold"-->
+                            <!--                                    android:textColor="@color/black"-->
+                            <!--                                    android:gravity="center"-->
+                            <!--                                    android:padding="5dp"-->
+                            <!--                                    android:layout_width="0dp"-->
+                            <!--                                    android:layout_height="84dp"-->
+                            <!--                                    android:layout_weight="1.5"-->
+                            <!--                                    android:text="२४–३५ महिना" />-->
+
+                            <!--                                <TextView-->
+                            <!--                                    android:background="@drawable/border"-->
+                            <!--                                    android:textSize="12sp"-->
+                            <!--                                    android:textStyle="bold"-->
+                            <!--                                    android:textColor="@color/black"-->
+                            <!--                                    android:gravity="center"-->
+                            <!--                                    android:padding="5dp"-->
+                            <!--                                    android:layout_width="0dp"-->
+                            <!--                                    android:layout_height="84dp"-->
+                            <!--                                    android:layout_weight="1.5"-->
+                            <!--                                    android:text="३६–५९ महिना" />-->
+
+                            <!--                                <TextView-->
+                            <!--                                    android:layout_gravity="center"-->
+                            <!--                                    android:textSize="12sp"-->
+                            <!--                                    android:textStyle="bold"-->
+                            <!--                                    android:textColor="@color/black"-->
+                            <!--                                    android:gravity="center"-->
+                            <!--                                    android:padding="5dp"-->
+                            <!--                                    android:layout_width="0dp"-->
+                            <!--                                    android:layout_height="84dp"-->
+                            <!--                                    android:layout_weight="1.5"-->
+                            <!--                                    android:text="जम्मा" />-->
+
+
+
+                        </TableRow>
+
+
+
+                    </TableLayout>
+
+                    <TableLayout
+                        android:layout_height="220dp"
+                        android:layout_width="500dp"
+                        android:background="@drawable/border" >
+
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:background="@drawable/border"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="५ बर्ष मुनिका वच्चाहरुको उपचार गरिएको संख्या" />
+
+                        <TableRow
+
+                            android:background="@drawable/border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TableLayout
+                                android:layout_width="400dp"
+                                android:background="@drawable/border">
+
+                                <TextView
+                                    android:background="@drawable/border"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/black"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="0dp"
+                                    android:layout_height="84dp"
+                                    android:layout_weight="1.5"
+                                    android:text="भिटामिन ए बाट" />
+
+                                <TableRow>
+
+                                    <TextView
+                                        android:background="@drawable/border"
+                                        android:textSize="12sp"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"
+                                        android:gravity="center"
+                                        android:padding="5dp"
+                                        android:layout_width="0dp"
+                                        android:layout_height="84dp"
+                                        android:layout_weight="1.5"
+                                        android:text="आँखा सम्बन्धी" />
+
+                                    <TextView
+                                        android:background="@drawable/border"
+                                        android:textSize="12sp"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"
+                                        android:gravity="center"
+                                        android:padding="5dp"
+                                        android:layout_width="0dp"
+                                        android:layout_height="84dp"
+                                        android:layout_weight="1.5"
+                                        android:text="दादुरा" />
+
+                                    <TextView
+                                        android:background="@drawable/border"
+                                        android:textSize="12sp"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"
+                                        android:gravity="center"
+                                        android:padding="5dp"
+                                        android:layout_width="0dp"
+                                        android:layout_height="84dp"
+                                        android:layout_weight="1.5"
+                                        android:text="दीर्घ झाडा पखाला" />
+
+                                    <TextView
+                                        android:background="@drawable/border"
+                                        android:textSize="12sp"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"
+                                        android:gravity="center"
+                                        android:padding="5dp"
+                                        android:layout_width="0dp"
+                                        android:layout_height="84dp"
+                                        android:layout_weight="1.5"
+                                        android:text="कडा कुपोषण" />
+
+
+
+                                </TableRow>
+
+                            </TableLayout>
+
+                            <TableLayout
+                                android:layout_gravity="center"
+                                android:layout_width="100dp">
+
+                                <TextView
+                                    android:layout_gravity="center"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/black"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="जुका को औषधीबाट उपचार" />
+
+
+                            </TableLayout>
+
+<!--                            <TextView-->
+<!--                                android:layout_gravity="center"-->
+<!--                                android:textSize="12sp"-->
+<!--                                android:textStyle="bold"-->
+<!--                                android:textColor="@color/black"-->
+<!--                                android:gravity="center"-->
+<!--                                android:padding="5dp"-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="84dp"-->
+<!--                                android:layout_weight="1.5"-->
+<!--                                android:text="पहिलो" />-->
+
+<!--                            <TextView-->
+<!--                                android:layout_gravity="center"-->
+<!--                                android:textSize="12sp"-->
+<!--                                android:textStyle="bold"-->
+<!--                                android:textColor="@color/black"-->
+<!--                                android:gravity="center"-->
+<!--                                android:padding="5dp"-->
+<!--                                android:background="@drawable/border"-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="84dp"-->
+<!--                                android:layout_weight="1.5"-->
+<!--                                android:text="दोस्रो" />-->
+
+<!--                            <TextView-->
+<!--                                android:layout_gravity="center"-->
+<!--                                android:textSize="12sp"-->
+<!--                                android:textStyle="bold"-->
+<!--                                android:textColor="@color/black"-->
+<!--                                android:gravity="center"-->
+<!--                                android:padding="5dp"-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="84dp"-->
+<!--                                android:layout_weight="1.5"-->
+<!--                                android:text="तेस्रो" />-->
+
+
+
+                        </TableRow>
+
+
+                    </TableLayout>
+
+                    <TableLayout
+                        android:layout_height="220dp"
                         android:layout_width="200dp"
                         android:background="@drawable/border" >
 
@@ -54,7 +553,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="स्थायी परिवार नियोजन गर्ने संख्या" />
+                            android:text="गर्भवति महिलाहरुको संख्या" />
 
                         <TableRow
 
@@ -63,6 +562,7 @@
                             android:layout_height="wrap_content">
 
                             <TextView
+                                android:layout_gravity="center"
                                 android:textSize="12sp"
                                 android:textStyle="bold"
                                 android:textColor="@color/black"
@@ -70,11 +570,12 @@
                                 android:padding="5dp"
                                 android:background="@drawable/border"
                                 android:layout_width="0dp"
-                                android:layout_height="wrap_content"
+                                android:layout_height="84dp"
                                 android:layout_weight="1.5"
-                                android:text="महिला" />
+                                android:text="जुका को औषधी पाएका " />
 
                             <TextView
+                                android:layout_gravity="center"
                                 android:textSize="12sp"
                                 android:textStyle="bold"
                                 android:textColor="@color/black"
@@ -82,21 +583,9 @@
                                 android:padding="5dp"
                                 android:background="@drawable/border"
                                 android:layout_width="0dp"
-                                android:layout_height="wrap_content"
+                                android:layout_height="84dp"
                                 android:layout_weight="1.5"
-                                android:text="पुरुष" />
-
-                            <TextView
-                                android:textSize="12sp"
-                                android:textStyle="bold"
-                                android:textColor="@color/black"
-                                android:gravity="center"
-                                android:padding="5dp"
-                                android:background="@drawable/border"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1.5"
-                                android:text="जम्मा" />
+                                android:text="आइरन चक्की पाएका" />
 
 
 
@@ -106,7 +595,7 @@
                     </TableLayout>
 
                     <TableLayout
-                        android:layout_height="100dp"
+                        android:layout_height="220dp"
                         android:layout_width="200dp"
                         android:background="@drawable/border" >
 
@@ -121,7 +610,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="अस्थायी साधनको प्रयोग गर्ने संख्या" />
+                            android:text="६ हप्ताभित्रका सुत्केरी महिलाहरुको संख्या" />
 
                         <TableRow
 
@@ -130,6 +619,7 @@
                             android:layout_height="wrap_content">
 
                             <TextView
+                                android:layout_gravity="center"
                                 android:textSize="12sp"
                                 android:textStyle="bold"
                                 android:textColor="@color/black"
@@ -137,11 +627,12 @@
                                 android:padding="5dp"
                                 android:background="@drawable/border"
                                 android:layout_width="0dp"
-                                android:layout_height="wrap_content"
+                                android:layout_height="84dp"
                                 android:layout_weight="1.5"
-                                android:text="महिला" />
+                                android:text="आइरन चक्की पाएका" />
 
                             <TextView
+                                android:layout_gravity="center"
                                 android:textSize="12sp"
                                 android:textStyle="bold"
                                 android:textColor="@color/black"
@@ -149,21 +640,9 @@
                                 android:padding="5dp"
                                 android:background="@drawable/border"
                                 android:layout_width="0dp"
-                                android:layout_height="wrap_content"
+                                android:layout_height="84dp"
                                 android:layout_weight="1.5"
-                                android:text="पुरुष" />
-
-                            <TextView
-                                android:textSize="12sp"
-                                android:textStyle="bold"
-                                android:textColor="@color/black"
-                                android:gravity="center"
-                                android:padding="5dp"
-                                android:background="@drawable/border"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1.5"
-                                android:text="जम्मा" />
+                                android:text="भिटामिन ए पाएका" />
 
 
 
@@ -172,9 +651,11 @@
 
                     </TableLayout>
 
+
+
                     <TableLayout
-                        android:layout_height="100dp"
-                        android:layout_width="200dp"
+                        android:layout_height="220dp"
+                        android:layout_width="70dp"
                         android:background="@drawable/border" >
 
 
@@ -188,58 +669,10 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="कूल संख्या" />
-
-                        <TableRow
-
-                            android:background="@drawable/border"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-
-                            <TextView
-                                android:textSize="12sp"
-                                android:textStyle="bold"
-                                android:textColor="@color/black"
-                                android:gravity="center"
-                                android:padding="5dp"
-                                android:background="@drawable/border"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1.5"
-                                android:text="महिला" />
-
-                            <TextView
-                                android:textSize="12sp"
-                                android:textStyle="bold"
-                                android:textColor="@color/black"
-                                android:gravity="center"
-                                android:padding="5dp"
-                                android:background="@drawable/border"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1.5"
-                                android:text="पुरुष" />
-
-                            <TextView
-                                android:textSize="12sp"
-                                android:textStyle="bold"
-                                android:textColor="@color/black"
-                                android:gravity="center"
-                                android:padding="5dp"
-                                android:background="@drawable/border"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1.5"
-                                android:text="जम्मा" />
-
-
-
-                        </TableRow>
+                            android:text="२२५ आइरन चक्की पाएका महिला संख्या" />
 
 
                     </TableLayout>
-
-
 
                 </TableRow>
 
@@ -249,6 +682,42 @@
                     android:layout_width="match_parent">
 
 
+                    <TableLayout
+                        android:layout_width="120dp"
+                        android:background="@drawable/border" >
+
+                        <TableRow
+                            android:layout_height="45dp"
+                            android:background="@drawable/border"
+                            android:layout_width="match_parent">
+
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <TextView
+                                    android:textColor="@color/black"
+                                    android:layout_gravity="center"
+                                    android:text="नयाँ"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+
+
+
+                        </TableRow>
+
+
+                    </TableLayout>
+
+
 
                     <TableLayout
                         android:layout_width="200dp"
@@ -292,6 +761,101 @@
 
                             </FrameLayout>
 
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
 
                             <FrameLayout
                                 android:background="@drawable/border"
@@ -301,6 +865,116 @@
 
                                 <TextView
                                     android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <TextView
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+                        </TableRow>
+
+
+                    </TableLayout>
+
+                    <TableLayout
+                        android:layout_width="200dp"
+                        android:background="@drawable/border" >
+
+                        <TableRow
+                            android:layout_height="45dp"
+                            android:background="@drawable/border"
+                            android:layout_width="match_parent">
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
                                     android:gravity="center"
                                     android:padding="5dp"
                                     android:layout_width="75dp"
@@ -357,25 +1031,14 @@
                             </FrameLayout>
 
 
-                            <FrameLayout
-                                android:background="@drawable/border"
-                                android:layout_width="wrap_content"
-                                android:layout_weight="1"
-                                android:layout_height="28dp">
 
-                                <TextView
-                                    android:layout_gravity="center"
-                                    android:gravity="center"
-                                    android:padding="5dp"
-                                    android:layout_width="75dp"
-                                    android:layout_height="28dp" />
-
-                            </FrameLayout>
 
                         </TableRow>
 
 
                     </TableLayout>
+
+
 
                     <TableLayout
                         android:layout_width="200dp"
@@ -419,14 +1082,33 @@
 
                             </FrameLayout>
 
+
+
+
+                        </TableRow>
+
+
+                    </TableLayout>
+
+                    <TableLayout
+                        android:layout_width="120dp"
+                        android:background="@drawable/border" >
+
+                        <TableRow
+                            android:layout_height="45dp"
+                            android:background="@drawable/border"
+                            android:layout_width="match_parent">
+
+
                             <FrameLayout
                                 android:background="@drawable/border"
                                 android:layout_width="wrap_content"
                                 android:layout_weight="1"
                                 android:layout_height="28dp">
 
-                                <TextView
+                                <Spinner
                                     android:layout_gravity="center"
+                                    android:entries="@array/types"
                                     android:gravity="center"
                                     android:padding="5dp"
                                     android:layout_width="75dp"
@@ -435,15 +1117,464 @@
                             </FrameLayout>
 
 
+
+
                         </TableRow>
 
 
                     </TableLayout>
-
-
 
                 </TableRow>
 
+                <TableRow
+                    android:layout_height="45dp"
+                    android:background="@drawable/border"
+                    android:layout_width="match_parent">
+
+
+                    <TableLayout
+                        android:layout_width="120dp"
+                        android:background="@drawable/border" >
+
+                        <TableRow
+                            android:layout_height="45dp"
+                            android:background="@drawable/border"
+                            android:layout_width="match_parent">
+
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <TextView
+                                    android:textColor="@color/black"
+                                    android:layout_gravity="center"
+                                    android:text="दोहोर्याई आएको"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+
+
+
+                        </TableRow>
+
+
+                    </TableLayout>
+
+
+
+                    <TableLayout
+                        android:layout_width="200dp"
+                        android:background="@drawable/border" >
+
+                        <TableRow
+                            android:layout_height="45dp"
+                            android:background="@drawable/border"
+                            android:layout_width="match_parent">
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <TextView
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <TextView
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+                        </TableRow>
+
+
+                    </TableLayout>
+
+                    <TableLayout
+                        android:layout_width="200dp"
+                        android:background="@drawable/border" >
+
+                        <TableRow
+                            android:layout_height="45dp"
+                            android:background="@drawable/border"
+                            android:layout_width="match_parent">
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+
+                        </TableRow>
+
+
+                    </TableLayout>
+
+                    <TableLayout
+                        android:layout_width="200dp"
+                        android:background="@drawable/border" >
+
+                        <TableRow
+                            android:layout_height="45dp"
+                            android:background="@drawable/border"
+                            android:layout_width="match_parent">
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+
+
+
+                        </TableRow>
+
+
+                    </TableLayout>
+
+
+
+                    <TableLayout
+                        android:layout_width="200dp"
+                        android:background="@drawable/border" >
+
+                        <TableRow
+                            android:layout_height="45dp"
+                            android:background="@drawable/border"
+                            android:layout_width="match_parent">
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+
+
+
+                        </TableRow>
+
+
+                    </TableLayout>
+
+                    <TableLayout
+                        android:layout_width="120dp"
+                        android:background="@drawable/border" >
+
+                        <TableRow
+                            android:layout_height="45dp"
+                            android:background="@drawable/border"
+                            android:layout_width="match_parent">
+
+
+                            <FrameLayout
+                                android:background="@drawable/border"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="28dp">
+
+                                <Spinner
+                                    android:layout_gravity="center"
+                                    android:entries="@array/types"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:layout_width="75dp"
+                                    android:layout_height="28dp" />
+
+                            </FrameLayout>
+
+
+
+
+                        </TableRow>
+
+
+                    </TableLayout>
+
+                </TableRow>
 
             </TableLayout>
 
