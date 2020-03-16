@@ -2,7 +2,6 @@
     <string name="app_name">ViewReplicationAndroid</string>
     <string name="ghar">3/d\'nLsf]</string>
 
-
     <string-array name="types">
         <item>0</item>
         <item>१</item>
@@ -22,11 +21,9 @@
         <item>छैन</item>
     </string-array>
 
-
-
     <string-array name="bhayeko">
-        <item>नभएको</item>
         <item>भएको</item>
+        <item>नभएको</item>
     </string-array>
 
     <string-array name="gharbar">
